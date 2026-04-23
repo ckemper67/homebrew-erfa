@@ -1,16 +1,19 @@
-# Ckemper Erfa
+# homebrew-erfa
 
-## How do I install these formulae?
+Homebrew tap for the [ERFA](https://github.com/liberfa/erfa) (Essential Routines for Fundamental Astronomy) library.
 
-`brew install ckemper/erfa/<formula>`
+## Installation
 
-Or `brew tap ckemper/erfa` and then `brew install <formula>`.
+To add this tap to Homebrew:
 
-Or, in a `brew bundle` `Brewfile`:
+```bash
+brew tap ckemper67/erfa
+```
 
-```ruby
-tap "ckemper/erfa"
-brew "<formula>"
+To install the ERFA library:
+
+```bash
+brew install erfa
 ```
 
 ## Documentation
